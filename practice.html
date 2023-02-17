@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    h2 {
+      margin: auto;
+      display: block;
+    }
+
+    .container {
+      margin: auto;
+      width: 70%;
+      padding: 20px;
+      border: 1px solid black;
+      display: flex;
+    }
+
+    .container-between {
+      justify-content: space-between;
+    }
+    
+    .container-evenly {
+      justify-content: space-evenly;
+    }
+    
+    .container-around {
+      justify-content: space-around;
+    }
+
+    .container-center {
+      justify-content: center;
+    }
+
+    .container-m-auto >  {
+      margin: auto;
+    }
+
+    .box {
+      width: 75px;
+      height: 75px;
+      background-color: lightblue;
+    }
+  </style>
+</head>
+<body>
+  <!-- Contoh Space Between -->
+  <h2>Space Between</h2>
+  <div class="container container-between">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+  
+  <h2>Space Evenly</h2>
+  <div class="container container-evenly">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+
+  <h2>Space Around</h2>
+  <div class="container container-around">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+
+  <h2>Center</h2>
+  <div class="container container-center">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+
+  <h2>Margin Auto</h2>
+  <div class="container container-m-auto">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+</body>
+</html>
